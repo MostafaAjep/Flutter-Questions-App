@@ -15,7 +15,6 @@ class StyledText extends StatelessWidget {
         color: Colors.white,
       ),
       textAlign: TextAlign.center,
-      maxLines: 2,
       overflow: TextOverflow.visible,
     );
   }

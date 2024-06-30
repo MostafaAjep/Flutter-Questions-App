@@ -35,10 +35,7 @@ class _QuestionPageState extends State<QuestionPage> {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              FittedBox(
-                fit: BoxFit.scaleDown,
-                child: StyledText(currentQuestion.text),
-              ),
+              StyledText(currentQuestion.text),
               const SizedBox(
                 height: 40,
               ),
